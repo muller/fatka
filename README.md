@@ -12,3 +12,6 @@ Fatjar for quickstart with kafka.
 
 ## Start console producer
 `java -cp fatka_deploy.jar kafka.tools.ConsoleProducer --broker-list localhost:9092 --topic test-topic`
+
+## Explore zookeeper
+`java -cp bazel-bin/src/main/scala/fatka/fatka_deploy.jar org.apache.zookeeper.ZooKeeperMain`
