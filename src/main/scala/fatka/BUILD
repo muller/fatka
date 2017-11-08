@@ -13,6 +13,7 @@ scala_binary(
         "@jackson_annotations//jar",
         "@jackson_core//jar",
         "@jackson_databind//jar",
+        "@jopt//jar",
         "@slf4j_api//jar",
         "@slf4j_simple//jar",
         "@yammer//jar",
